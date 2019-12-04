@@ -1,0 +1,17 @@
+.card{
+    &:hover{
+        background-color: rgb(247, 241, 241);
+        border-color: transparent;
+        transform: translateY(-3px) scale(1.01);
+    }
+    transition: all .2s;
+
+    .card-img {
+        object-fit: contain;
+        height: 100%;
+    }
+    
+    .card-body {
+        padding: .5rem;
+    }
+}
